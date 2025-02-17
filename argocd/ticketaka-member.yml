@@ -7,7 +7,7 @@ spec:
   project: ticketaka
   source:
     repoURL: https://github.com/F1T4-HOTSUN/manifest.git
-    targetRevision: main
+    targetRevision: HEAD
     path: resources/member # 배포 관련 YAML 경로
   destination:
     server: https://kubernetes.default.svc
